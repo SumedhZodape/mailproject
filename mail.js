@@ -21,7 +21,7 @@ const mailOptions = {
     alkeshmanas0741@gmail.com`,
     subject: 'Testing Email',
     text: 'Hello World?',
-    html:`<h1 style="background-color:green">Kaise ho aap log</h1>`
+    html:`<h1 style="background-color:green">Hum thik hai</h1>`
 }
 
 transporter.sendMail(mailOptions, (err,info)=>{
@@ -31,3 +31,7 @@ transporter.sendMail(mailOptions, (err,info)=>{
         console.log("Email send ", info)
     }
 })
+
+
+
+// hey
